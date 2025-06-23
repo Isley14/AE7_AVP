@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Perfil - Linn Olsen</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header class="navbar">
+    <h2>Perfil</h2>
+    <nav>
+      <a href="#">Inicio</a>
+      <a href="#">Mi Perfil</a>
+      <a href="#">Encontrar Conexiones</a>
+      <button class="logout">Cerrar Sesión</button>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="profile-card">
+      <div class="banner"></div>
+      <div class="profile-info">
+        <img src="https://i.pravatar.cc/100?img=47" alt="Linn Olsen" class="avatar"/>
+        <h1 id="nombre">Linn Olsen</h1>
+        <p>Bergen, Noruega</p>
+        <p>Diseñadora de UX/UI | Desarrolladora Frontend | Amante de la naturaleza</p>
+        <p id="bio" class="bio">
+          Apasionada por crear experiencias digitales hermosas y funcionales.
+          Cuando no está codificando, disfruta explorando los fiordos noruegos.
+        </p>
+        <a href="#" class="edit-link">✎ Edit profile</a>
+      </div>
+    </section>
+
+    <aside class="sidebar">
+      <div class="requests">
+        <h3>Solicitudes de Conexión (2)</h3>
+        <div class="request">
+          <img src="https://i.pravatar.cc/40?img=60" alt="Kai" />
+          <span>Kai Schröder</span>
+          <div class="buttons">
+            <button class="accept">✔</button>
+            <button class="decline">✖</button>
+          </div>
+        </div>
+        <div class="request">
+          <img src="https://i.pravatar.cc/40?img=65" alt="Amira" />
+          <span>Amira El-Masry</span>
+          <div class="buttons">
+            <button class="accept">✔</button>
+            <button class="decline">✖</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="connections">
+        <h3>Tus Conexiones (500+)</h3>
+        <ul id="lista-conexiones">
+          <li><img src="https://i.pravatar.cc/30?img=32" /> Adrien Desplatz</li>
+          <li><img src="https://i.pravatar.cc/30?img=22" /> Aarav Patel</li>
+          <li><img src="https://i.pravatar.cc/30?img=12" /> Lina Kovačević</li>
+        </ul>
+      </div>
+    </aside>
+
+    <section class="education">
+      <h3>Educación</h3>
+      <p><strong>Coding Dojo - Full Stack</strong><br>
+        Dic 2019 - Mar 2020<br>
+        Triple cinturón negro en Python, MERN y C#</p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
